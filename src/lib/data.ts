@@ -120,6 +120,16 @@ export function getAllTradeCounts() {
   return counts;
 }
 
+export function getVotesForBill(billId: string): (Vote & { member: Member })[] {
+  return votes
+    .filter((v) => v.billId === billId)
+    .map((v) => ({
+      ...v,
+      member: members.find((m) => m.id === v.memberId)!,
+    }))
+    .filter((v) => v.member);
+}
+
 export function getAllDonationTotals(cycle: "2024" | "2022" = "2024") {
   const totals: Record<string, number> = {};
   for (const d of donations) {

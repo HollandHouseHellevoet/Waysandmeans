@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllMembers } from "@/lib/data";
+import { getAllMembers, getAllBills } from "@/lib/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const members = getAllMembers();
@@ -12,6 +12,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const bills = getAllBills();
+  const billPages = bills.map((b) => ({
+    url: `${baseUrl}/bill/${b.id}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   return [
     {
       url: baseUrl,
@@ -20,5 +28,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     ...memberPages,
+    ...billPages,
   ];
 }

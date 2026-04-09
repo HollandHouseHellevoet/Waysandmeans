@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Bill, Vote } from "@/lib/types";
 
 interface VoteRecordProps {
@@ -47,9 +48,11 @@ export default function VoteRecord({ vote }: VoteRecordProps) {
               })}
             </span>
           </div>
-          <h4 className="font-serif text-base text-rojas-text font-semibold">
-            {bill.shortTitle}
-          </h4>
+          <Link href={`/bill/${bill.id}`} className="hover:text-rojas-accent transition-colors">
+            <h4 className="font-serif text-base text-rojas-text font-semibold">
+              {bill.shortTitle}
+            </h4>
+          </Link>
           <p className="mt-1 text-xs text-rojas-text-muted leading-relaxed">
             {bill.description}
           </p>
