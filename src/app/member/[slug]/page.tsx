@@ -13,6 +13,7 @@ import ProfileHeader from "@/components/ProfileHeader";
 import VotingHistory from "@/components/VotingHistory";
 import DonationHistory from "@/components/DonationHistory";
 import SectionHeader from "@/components/SectionHeader";
+import ShareButtons from "@/components/ShareButtons";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -29,12 +30,22 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!member) return { title: "Member Not Found" };
 
   const party = member.party === "R" ? "Republican" : "Democrat";
+  const title = `${member.firstName} ${member.lastName} (${party}-${member.state})`;
+  const description = `Healthcare profile for Rep. ${member.firstName} ${member.lastName}. Voting record on healthcare bills, campaign donations from the healthcare industry, and stock trades.`;
   return {
-    title: `${member.firstName} ${member.lastName} (${party}-${member.state})`,
-    description: `Healthcare profile for Rep. ${member.firstName} ${member.lastName}. Voting record on healthcare bills, campaign donations from the healthcare industry, and stock trades.`,
+    title,
+    description,
     openGraph: {
       title: `${member.firstName} ${member.lastName} | Ways & Means Healthcare Profile`,
       description: member.bio,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${member.firstName} ${member.lastName} | Healthcare Profile`,
+      description,
+    },
+    alternates: {
+      canonical: `https://waysandmeans.rojasreport.com/member/${slug}`,
     },
   };
 }
@@ -53,13 +64,17 @@ export default async function MemberPage({ params }: PageProps) {
 
   return (
     <div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex items-center justify-between">
         <Link
           href="/"
           className="inline-flex items-center text-xs tracking-[0.1em] uppercase text-rojas-accent font-sans font-medium hover:text-rojas-accent-hover transition-colors"
         >
           &larr; All Members
         </Link>
+        <ShareButtons
+          title={`${member.firstName} ${member.lastName} — Healthcare Profile | The Rojas Report`}
+          url={`https://waysandmeans.rojasreport.com/member/${member.id}`}
+        />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">

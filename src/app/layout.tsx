@@ -14,6 +14,19 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: "The Rojas Report",
     type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@RojasReport",
+    creator: "@RojasReport",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://waysandmeans.rojasreport.com",
   },
 };
 
