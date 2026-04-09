@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Member } from "@/lib/types";
+import MemberPhoto from "./MemberPhoto";
 
 interface MemberCardProps {
   member: Member;
@@ -26,11 +27,28 @@ export default function MemberCard({ member, voteCounts, donationTotal }: Member
       <div
         className={`border-l-3 ${partyColor} bg-rojas-card hover:bg-rojas-card-hover transition-colors p-5 h-full flex flex-col`}
       >
-        <div className="flex items-start justify-between mb-3">
-          <div className="flex-1">
-            <h3 className="font-serif text-lg text-rojas-text font-semibold leading-tight">
-              {member.firstName} {member.lastName}
-            </h3>
+        <div className="flex items-start gap-3 mb-3">
+          <MemberPhoto
+            bioguideId={member.bioguideId}
+            firstName={member.firstName}
+            lastName={member.lastName}
+            size="sm"
+          />
+          <div className="flex-1 min-w-0">
+            <div className="flex items-start justify-between gap-2">
+              <h3 className="font-serif text-lg text-rojas-text font-semibold leading-tight">
+                {member.firstName} {member.lastName}
+              </h3>
+              {member.role && (
+                <span className="text-[10px] tracking-[0.1em] uppercase text-rojas-accent font-sans font-medium border border-rojas-accent px-2 py-0.5 shrink-0">
+                  {member.role === "Health Subcommittee Chair"
+                    ? "Health Chair"
+                    : member.role === "Health Subcommittee Ranking Member"
+                      ? "Health RM"
+                      : member.role}
+                </span>
+              )}
+            </div>
             <div className="mt-1 flex items-center gap-2">
               <span
                 className={`inline-block w-2 h-2 rounded-full ${partyBg}`}
@@ -40,15 +58,6 @@ export default function MemberCard({ member, voteCounts, donationTotal }: Member
               </span>
             </div>
           </div>
-          {member.role && (
-            <span className="text-[10px] tracking-[0.1em] uppercase text-rojas-accent font-sans font-medium border border-rojas-accent px-2 py-0.5 shrink-0">
-              {member.role === "Health Subcommittee Chair"
-                ? "Health Chair"
-                : member.role === "Health Subcommittee Ranking Member"
-                  ? "Health RM"
-                  : member.role}
-            </span>
-          )}
         </div>
 
         <p className="text-xs text-rojas-text-muted leading-relaxed line-clamp-2 flex-1">

@@ -1,4 +1,5 @@
 import type { Member } from "@/lib/types";
+import MemberPhoto from "./MemberPhoto";
 
 interface ProfileHeaderProps {
   member: Member;
@@ -27,12 +28,12 @@ export default function ProfileHeader({
   return (
     <div className={`border-l-4 ${partyBorder} bg-rojas-card p-6 sm:p-8`}>
       <div className="flex flex-col sm:flex-row sm:items-start gap-6">
-        <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-sm bg-rojas-border flex items-center justify-center shrink-0">
-          <span className="font-serif text-2xl sm:text-3xl text-rojas-text-muted">
-            {member.firstName[0]}
-            {member.lastName[0]}
-          </span>
-        </div>
+        <MemberPhoto
+          bioguideId={member.bioguideId}
+          firstName={member.firstName}
+          lastName={member.lastName}
+          size="lg"
+        />
 
         <div className="flex-1">
           <div className="flex flex-wrap items-center gap-3 mb-2">
