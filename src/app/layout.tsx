@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://waysandmeans.rojasreport.com"),
   title: {
     default: "Ways & Means Committee | The Rojas Report",
     template: "%s | The Rojas Report",
