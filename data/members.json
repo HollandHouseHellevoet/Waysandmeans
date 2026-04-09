@@ -237,7 +237,7 @@
     "party": "R",
     "state": "IA",
     "district": "04",
-    "bioguideId": "F000474",
+    "bioguideId": "F000446",
     "bio": "Former Iowa state senator. Focused on rural hospital viability, telehealth for agricultural communities, and reducing prescription drug costs.",
     "healthcareSubcommittee": false,
     "termStart": 2021
@@ -285,7 +285,7 @@
     "party": "R",
     "state": "OH",
     "district": "07",
-    "bioguideId": "M001219",
+    "bioguideId": "M001222",
     "bio": "Former White House advisor. Focused on veterans' healthcare, mental health services for first responders, and healthcare innovation policy.",
     "healthcareSubcommittee": false,
     "termStart": 2023
@@ -297,7 +297,7 @@
     "party": "R",
     "state": "FL",
     "district": "04",
-    "bioguideId": "B001316",
+    "bioguideId": "B001314",
     "bio": "Former Florida state senator. Focused on Medicaid reform, healthcare workforce shortages, and reducing hospital pricing opacity in northeast Florida.",
     "healthcareSubcommittee": false,
     "termStart": 2023
