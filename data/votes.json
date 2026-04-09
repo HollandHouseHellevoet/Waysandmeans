@@ -192,7 +192,7 @@
   {
     "memberId": "dwight-evans",
     "billId": "hr-3421-118",
-    "vote": "Yea"
+    "vote": "Not Voting"
   },
   {
     "memberId": "brad-schneider",
@@ -377,7 +377,7 @@
   {
     "memberId": "danny-davis",
     "billId": "hr-3284-118",
-    "vote": "Yea"
+    "vote": "Not Voting"
   },
   {
     "memberId": "linda-sanchez",
@@ -672,7 +672,7 @@
   {
     "memberId": "tom-suozzi",
     "billId": "hr-2-117",
-    "vote": "Yea"
+    "vote": "Not Voting"
   },
   {
     "memberId": "jason-smith",
@@ -752,7 +752,7 @@
   {
     "memberId": "claudia-tenney",
     "billId": "hr-3-116",
-    "vote": "Nay"
+    "vote": "Not Voting"
   },
   {
     "memberId": "michelle-fischbach",
@@ -897,7 +897,7 @@
   {
     "memberId": "tom-suozzi",
     "billId": "hr-3-116",
-    "vote": "Not Voting"
+    "vote": "Yea"
   },
   {
     "memberId": "jason-smith",
@@ -1307,7 +1307,7 @@
   {
     "memberId": "brendan-boyle",
     "billId": "hr-3076-117",
-    "vote": "Yea"
+    "vote": "Not Voting"
   },
   {
     "memberId": "don-beyer",
@@ -1407,7 +1407,7 @@
   {
     "memberId": "greg-murphy",
     "billId": "hr-987-116",
-    "vote": "Not Voting"
+    "vote": "Nay"
   },
   {
     "memberId": "david-kustoff",
@@ -1427,7 +1427,7 @@
   {
     "memberId": "claudia-tenney",
     "billId": "hr-987-116",
-    "vote": "Nay"
+    "vote": "Not Voting"
   },
   {
     "memberId": "michelle-fischbach",
@@ -1507,7 +1507,7 @@
   {
     "memberId": "linda-sanchez",
     "billId": "hr-987-116",
-    "vote": "Yea"
+    "vote": "Not Voting"
   },
   {
     "memberId": "terri-sewell",
@@ -1572,7 +1572,7 @@
   {
     "memberId": "tom-suozzi",
     "billId": "hr-987-116",
-    "vote": "Not Voting"
+    "vote": "Yea"
   },
   {
     "memberId": "jason-smith",
@@ -1622,7 +1622,7 @@
   {
     "memberId": "kevin-hern",
     "billId": "hr-8800-117",
-    "vote": "Not Voting"
+    "vote": "Yea"
   },
   {
     "memberId": "carol-miller",
@@ -1647,7 +1647,7 @@
   {
     "memberId": "greg-steube",
     "billId": "hr-8800-117",
-    "vote": "Yea"
+    "vote": "Not Voting"
   },
   {
     "memberId": "claudia-tenney",
@@ -1947,7 +1947,7 @@
   {
     "memberId": "john-larson",
     "billId": "hr-2474-118",
-    "vote": "Yea"
+    "vote": "Not Voting"
   },
   {
     "memberId": "danny-davis",
@@ -2047,7 +2047,7 @@
   {
     "memberId": "david-schweikert",
     "billId": "hr-5378-118",
-    "vote": "Not Voting"
+    "vote": "Yea"
   },
   {
     "memberId": "darin-lahood",
@@ -2072,7 +2072,7 @@
   {
     "memberId": "kevin-hern",
     "billId": "hr-5378-118",
-    "vote": "Yea"
+    "vote": "Not Voting"
   },
   {
     "memberId": "carol-miller",
@@ -2402,12 +2402,12 @@
   {
     "memberId": "danny-davis",
     "billId": "hr-4822-118",
-    "vote": "Nay"
+    "vote": "Yea"
   },
   {
     "memberId": "linda-sanchez",
     "billId": "hr-4822-118",
-    "vote": "Yea"
+    "vote": "Nay"
   },
   {
     "memberId": "terri-sewell",
@@ -2427,7 +2427,7 @@
   {
     "memberId": "gwen-moore",
     "billId": "hr-4822-118",
-    "vote": "Nay"
+    "vote": "Not Voting"
   },
   {
     "memberId": "brendan-boyle",
@@ -2457,7 +2457,7 @@
   {
     "memberId": "jimmy-gomez",
     "billId": "hr-4822-118",
-    "vote": "Yea"
+    "vote": "Nay"
   },
   {
     "memberId": "steven-horsford",
