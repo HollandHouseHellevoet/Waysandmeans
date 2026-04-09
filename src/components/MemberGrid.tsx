@@ -16,11 +16,17 @@ interface MemberGridProps {
 export default function MemberGrid({ members, voteCounts, donationTotals }: MemberGridProps) {
   const [partyFilter, setPartyFilter] = useState<"all" | "R" | "D">("all");
   const [sort, setSort] = useState<SortOption>("donations");
+  const [search, setSearch] = useState("");
 
-  const filtered =
-    partyFilter === "all"
-      ? members
-      : members.filter((m) => m.party === partyFilter);
+  const filtered = members.filter((m) => {
+    if (partyFilter !== "all" && m.party !== partyFilter) return false;
+    if (search) {
+      const q = search.toLowerCase();
+      const full = `${m.firstName} ${m.lastName}`.toLowerCase();
+      return full.includes(q) || m.state.toLowerCase().includes(q);
+    }
+    return true;
+  });
 
   const sorted = [...filtered].sort((a, b) => {
     if (sort === "donations") {
@@ -47,6 +53,13 @@ export default function MemberGrid({ members, voteCounts, donationTotals }: Memb
   return (
     <div>
       <div className="mb-6 flex flex-wrap items-center gap-4">
+        <input
+          type="text"
+          placeholder="Search by name or state..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          className="px-3 py-2 text-sm font-sans bg-rojas-card border border-rojas-border text-rojas-text placeholder:text-rojas-text-muted focus:border-rojas-accent focus:outline-none w-full sm:w-56"
+        />
         <PartyFilter
           selected={partyFilter}
           onChange={setPartyFilter}
