@@ -76,7 +76,15 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-rojas-border">
+        <div className="mt-8 pt-8 border-t border-rojas-border space-y-3">
+          <p className="text-[11px] text-rojas-text-muted text-center leading-relaxed max-w-2xl mx-auto">
+            Voting data sourced from{" "}
+            <a href="https://www.congress.gov" target="_blank" rel="noopener noreferrer" className="text-rojas-text-secondary hover:text-rojas-accent transition-colors">Congress.gov</a>.
+            Campaign finance data based on FEC filings via{" "}
+            <a href="https://www.opensecrets.org" target="_blank" rel="noopener noreferrer" className="text-rojas-text-secondary hover:text-rojas-accent transition-colors">OpenSecrets</a>.
+            Member photos from the{" "}
+            <a href="https://bioguide.congress.gov" target="_blank" rel="noopener noreferrer" className="text-rojas-text-secondary hover:text-rojas-accent transition-colors">Congressional Biographical Directory</a>.
+          </p>
           <p className="text-xs text-rojas-text-muted text-center">
             &copy; {new Date().getFullYear()} The Rojas Report. All rights
             reserved.
