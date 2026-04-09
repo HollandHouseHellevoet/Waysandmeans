@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-rojas-bg: #0B1215;
+  --color-rojas-bg-alt: #0F1820;
+  --color-rojas-card: #141E26;
+  --color-rojas-card-hover: #1A2832;
+  --color-rojas-border: #2A3640;
+  --color-rojas-accent: #D4742C;
+  --color-rojas-accent-hover: #E8853D;
+  --color-rojas-divider: #1E293B;
+  --color-rojas-text: #FFFFFF;
+  --color-rojas-text-secondary: #94A3B8;
+  --color-rojas-text-muted: #64748B;
+  --color-party-republican: #DC2626;
+  --color-party-democrat: #2563EB;
+  --color-vote-yea: #16A34A;
+  --color-vote-nay: #DC2626;
+  --color-vote-absent: #64748B;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-rojas-bg);
+  color: var(--color-rojas-text-secondary);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  color: var(--color-rojas-text);
+}

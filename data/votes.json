@@ -1,0 +1,2477 @@
+[
+  {
+    "memberId": "jason-smith",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "vern-buchanan",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "adrian-smith",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-kelly",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-schweikert",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "darin-lahood",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jodey-arrington",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "ron-estes",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-smucker",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "kevin-hern",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "carol-miller",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-murphy",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-kustoff",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brian-fitzpatrick",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-steube",
+    "billId": "hr-3421-118",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "claudia-tenney",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "michelle-fischbach",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "blake-moore",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "beth-van-duyne",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "randy-feenstra",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "nicole-malliotakis",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-carey",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "rudy-yakym",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "max-miller",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "aaron-bean",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "nathaniel-moran",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "richard-neal",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-doggett",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-thompson",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "john-larson",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "danny-davis",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "linda-sanchez",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "terri-sewell",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "suzan-delbene",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "judy-chu",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "gwen-moore",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brendan-boyle",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "don-beyer",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "dwight-evans",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brad-schneider",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-panetta",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-gomez",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "steven-horsford",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "stacey-plaskett",
+    "billId": "hr-3421-118",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "tom-suozzi",
+    "billId": "hr-3421-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jason-smith",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "vern-buchanan",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "adrian-smith",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-kelly",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-schweikert",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "darin-lahood",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jodey-arrington",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "ron-estes",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-smucker",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "kevin-hern",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "carol-miller",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-murphy",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-kustoff",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brian-fitzpatrick",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-steube",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "claudia-tenney",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "michelle-fischbach",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "blake-moore",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "beth-van-duyne",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "randy-feenstra",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "nicole-malliotakis",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-carey",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "rudy-yakym",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "max-miller",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "aaron-bean",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "nathaniel-moran",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "richard-neal",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-doggett",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-thompson",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "john-larson",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "danny-davis",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "linda-sanchez",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "terri-sewell",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "suzan-delbene",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "judy-chu",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "gwen-moore",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brendan-boyle",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "don-beyer",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "dwight-evans",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brad-schneider",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-panetta",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-gomez",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "steven-horsford",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "stacey-plaskett",
+    "billId": "hr-3284-118",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "tom-suozzi",
+    "billId": "hr-3284-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jason-smith",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "vern-buchanan",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "adrian-smith",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "mike-kelly",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "david-schweikert",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "darin-lahood",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "jodey-arrington",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "ron-estes",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "lloyd-smucker",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "kevin-hern",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "carol-miller",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "greg-murphy",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "david-kustoff",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "brian-fitzpatrick",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "greg-steube",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "claudia-tenney",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "michelle-fischbach",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "blake-moore",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "beth-van-duyne",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "randy-feenstra",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "nicole-malliotakis",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "mike-carey",
+    "billId": "hr-2-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "rudy-yakym",
+    "billId": "hr-2-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "max-miller",
+    "billId": "hr-2-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "aaron-bean",
+    "billId": "hr-2-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "nathaniel-moran",
+    "billId": "hr-2-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "richard-neal",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-doggett",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-thompson",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "john-larson",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "danny-davis",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "linda-sanchez",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "terri-sewell",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "suzan-delbene",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "judy-chu",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "gwen-moore",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brendan-boyle",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "don-beyer",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "dwight-evans",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brad-schneider",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-panetta",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-gomez",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "steven-horsford",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "stacey-plaskett",
+    "billId": "hr-2-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "tom-suozzi",
+    "billId": "hr-2-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jason-smith",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "vern-buchanan",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "adrian-smith",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "mike-kelly",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "david-schweikert",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "darin-lahood",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "jodey-arrington",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "ron-estes",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "lloyd-smucker",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "kevin-hern",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "carol-miller",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "greg-murphy",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "david-kustoff",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "brian-fitzpatrick",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-steube",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "claudia-tenney",
+    "billId": "hr-3-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "michelle-fischbach",
+    "billId": "hr-3-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "blake-moore",
+    "billId": "hr-3-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "beth-van-duyne",
+    "billId": "hr-3-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "randy-feenstra",
+    "billId": "hr-3-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "nicole-malliotakis",
+    "billId": "hr-3-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "mike-carey",
+    "billId": "hr-3-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "rudy-yakym",
+    "billId": "hr-3-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "max-miller",
+    "billId": "hr-3-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "aaron-bean",
+    "billId": "hr-3-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "nathaniel-moran",
+    "billId": "hr-3-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "richard-neal",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-doggett",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-thompson",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "john-larson",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "danny-davis",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "linda-sanchez",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "terri-sewell",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "suzan-delbene",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "judy-chu",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "gwen-moore",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brendan-boyle",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "don-beyer",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "dwight-evans",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brad-schneider",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-panetta",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-gomez",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "steven-horsford",
+    "billId": "hr-3-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "stacey-plaskett",
+    "billId": "hr-3-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "tom-suozzi",
+    "billId": "hr-3-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "jason-smith",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "vern-buchanan",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "adrian-smith",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "mike-kelly",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "david-schweikert",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "darin-lahood",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "jodey-arrington",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "ron-estes",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "lloyd-smucker",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "kevin-hern",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "carol-miller",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "greg-murphy",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "david-kustoff",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "brian-fitzpatrick",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "greg-steube",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "claudia-tenney",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "michelle-fischbach",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "blake-moore",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "beth-van-duyne",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "randy-feenstra",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "nicole-malliotakis",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "mike-carey",
+    "billId": "hr-1319-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "rudy-yakym",
+    "billId": "hr-1319-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "max-miller",
+    "billId": "hr-1319-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "aaron-bean",
+    "billId": "hr-1319-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "nathaniel-moran",
+    "billId": "hr-1319-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "richard-neal",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-doggett",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-thompson",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "john-larson",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "danny-davis",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "linda-sanchez",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "terri-sewell",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "suzan-delbene",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "judy-chu",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "gwen-moore",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brendan-boyle",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "don-beyer",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "dwight-evans",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brad-schneider",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-panetta",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-gomez",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "steven-horsford",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "stacey-plaskett",
+    "billId": "hr-1319-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "tom-suozzi",
+    "billId": "hr-1319-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jason-smith",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "vern-buchanan",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "adrian-smith",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-kelly",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-schweikert",
+    "billId": "hr-3076-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "darin-lahood",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jodey-arrington",
+    "billId": "hr-3076-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "ron-estes",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-smucker",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "kevin-hern",
+    "billId": "hr-3076-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "carol-miller",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-murphy",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-kustoff",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brian-fitzpatrick",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-steube",
+    "billId": "hr-3076-117",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "claudia-tenney",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "michelle-fischbach",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "blake-moore",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "beth-van-duyne",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "randy-feenstra",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "nicole-malliotakis",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-carey",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "rudy-yakym",
+    "billId": "hr-3076-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "max-miller",
+    "billId": "hr-3076-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "aaron-bean",
+    "billId": "hr-3076-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "nathaniel-moran",
+    "billId": "hr-3076-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "richard-neal",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-doggett",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-thompson",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "john-larson",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "danny-davis",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "linda-sanchez",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "terri-sewell",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "suzan-delbene",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "judy-chu",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "gwen-moore",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brendan-boyle",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "don-beyer",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "dwight-evans",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brad-schneider",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-panetta",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-gomez",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "steven-horsford",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "stacey-plaskett",
+    "billId": "hr-3076-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "tom-suozzi",
+    "billId": "hr-3076-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jason-smith",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "vern-buchanan",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "adrian-smith",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "mike-kelly",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "david-schweikert",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "darin-lahood",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "jodey-arrington",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "ron-estes",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "lloyd-smucker",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "kevin-hern",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "carol-miller",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "greg-murphy",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "david-kustoff",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "brian-fitzpatrick",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "greg-steube",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "claudia-tenney",
+    "billId": "hr-987-116",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "michelle-fischbach",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "blake-moore",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "beth-van-duyne",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "randy-feenstra",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "nicole-malliotakis",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "mike-carey",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "rudy-yakym",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "max-miller",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "aaron-bean",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "nathaniel-moran",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "richard-neal",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-doggett",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-thompson",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "john-larson",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "danny-davis",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "linda-sanchez",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "terri-sewell",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "suzan-delbene",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "judy-chu",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "gwen-moore",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brendan-boyle",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "don-beyer",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "dwight-evans",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brad-schneider",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-panetta",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-gomez",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "steven-horsford",
+    "billId": "hr-987-116",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "stacey-plaskett",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "tom-suozzi",
+    "billId": "hr-987-116",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "jason-smith",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "vern-buchanan",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "adrian-smith",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-kelly",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-schweikert",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "darin-lahood",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jodey-arrington",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "ron-estes",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-smucker",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "kevin-hern",
+    "billId": "hr-8800-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "carol-miller",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-murphy",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-kustoff",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brian-fitzpatrick",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-steube",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "claudia-tenney",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "michelle-fischbach",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "blake-moore",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "beth-van-duyne",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "randy-feenstra",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "nicole-malliotakis",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-carey",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "rudy-yakym",
+    "billId": "hr-8800-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "max-miller",
+    "billId": "hr-8800-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "aaron-bean",
+    "billId": "hr-8800-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "nathaniel-moran",
+    "billId": "hr-8800-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "richard-neal",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-doggett",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-thompson",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "john-larson",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "danny-davis",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "linda-sanchez",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "terri-sewell",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "suzan-delbene",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "judy-chu",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "gwen-moore",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brendan-boyle",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "don-beyer",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "dwight-evans",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brad-schneider",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-panetta",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-gomez",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "steven-horsford",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "stacey-plaskett",
+    "billId": "hr-8800-117",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "tom-suozzi",
+    "billId": "hr-8800-117",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jason-smith",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "vern-buchanan",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "adrian-smith",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-kelly",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-schweikert",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "darin-lahood",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jodey-arrington",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "ron-estes",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-smucker",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "kevin-hern",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "carol-miller",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-murphy",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-kustoff",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brian-fitzpatrick",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-steube",
+    "billId": "hr-2474-118",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "claudia-tenney",
+    "billId": "hr-2474-118",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "michelle-fischbach",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "blake-moore",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "beth-van-duyne",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "randy-feenstra",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "nicole-malliotakis",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-carey",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "rudy-yakym",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "max-miller",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "aaron-bean",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "nathaniel-moran",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "richard-neal",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-doggett",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-thompson",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "john-larson",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "danny-davis",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "linda-sanchez",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "terri-sewell",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "suzan-delbene",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "judy-chu",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "gwen-moore",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brendan-boyle",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "don-beyer",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "dwight-evans",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brad-schneider",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-panetta",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-gomez",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "steven-horsford",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "stacey-plaskett",
+    "billId": "hr-2474-118",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "tom-suozzi",
+    "billId": "hr-2474-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jason-smith",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "vern-buchanan",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "adrian-smith",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-kelly",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-schweikert",
+    "billId": "hr-5378-118",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "darin-lahood",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jodey-arrington",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "ron-estes",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-smucker",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "kevin-hern",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "carol-miller",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-murphy",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-kustoff",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brian-fitzpatrick",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-steube",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "claudia-tenney",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "michelle-fischbach",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "blake-moore",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "beth-van-duyne",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "randy-feenstra",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "nicole-malliotakis",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-carey",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "rudy-yakym",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "max-miller",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "aaron-bean",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "nathaniel-moran",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "richard-neal",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-doggett",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-thompson",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "john-larson",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "danny-davis",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "linda-sanchez",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "terri-sewell",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "suzan-delbene",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "judy-chu",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "gwen-moore",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brendan-boyle",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "don-beyer",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "dwight-evans",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brad-schneider",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-panetta",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-gomez",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "steven-horsford",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "stacey-plaskett",
+    "billId": "hr-5378-118",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "tom-suozzi",
+    "billId": "hr-5378-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jason-smith",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "vern-buchanan",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "adrian-smith",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-kelly",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-schweikert",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "darin-lahood",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jodey-arrington",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "ron-estes",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-smucker",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "kevin-hern",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "carol-miller",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-murphy",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "david-kustoff",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brian-fitzpatrick",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "greg-steube",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "claudia-tenney",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "michelle-fischbach",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "blake-moore",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "beth-van-duyne",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "randy-feenstra",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "nicole-malliotakis",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-carey",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "rudy-yakym",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "max-miller",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "aaron-bean",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "nathaniel-moran",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "richard-neal",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "lloyd-doggett",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "mike-thompson",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "john-larson",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "danny-davis",
+    "billId": "hr-4822-118",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "linda-sanchez",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "terri-sewell",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "suzan-delbene",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "judy-chu",
+    "billId": "hr-4822-118",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "gwen-moore",
+    "billId": "hr-4822-118",
+    "vote": "Nay"
+  },
+  {
+    "memberId": "brendan-boyle",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "don-beyer",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "dwight-evans",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "brad-schneider",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-panetta",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "jimmy-gomez",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "steven-horsford",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  },
+  {
+    "memberId": "stacey-plaskett",
+    "billId": "hr-4822-118",
+    "vote": "Not Voting"
+  },
+  {
+    "memberId": "tom-suozzi",
+    "billId": "hr-4822-118",
+    "vote": "Yea"
+  }
+]
