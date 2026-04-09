@@ -8,11 +8,12 @@ import {
   getVoteCountsForMember,
   getDonationsForMember,
   getDonationSummaryForMember,
+  getTradesForMember,
 } from "@/lib/data";
 import ProfileHeader from "@/components/ProfileHeader";
 import VotingHistory from "@/components/VotingHistory";
 import DonationHistory from "@/components/DonationHistory";
-import SectionHeader from "@/components/SectionHeader";
+import TradeHistory from "@/components/TradeHistory";
 import ShareButtons from "@/components/ShareButtons";
 
 interface PageProps {
@@ -61,6 +62,7 @@ export default async function MemberPage({ params }: PageProps) {
   const donations2022 = getDonationsForMember(member.id, "2022");
   const summary2024 = getDonationSummaryForMember(member.id, "2024");
   const summary2022 = getDonationSummaryForMember(member.id, "2022");
+  const memberTrades = getTradesForMember(member.id);
 
   return (
     <div>
@@ -94,21 +96,7 @@ export default async function MemberPage({ params }: PageProps) {
         </div>
 
         <div className="mt-12">
-          <SectionHeader
-            number="03"
-            label="Financial Disclosures"
-            title="Stock Trades"
-            description="Healthcare-related stock transactions reported by this member. Coming soon."
-          />
-          <div className="border-l-3 border-rojas-border bg-rojas-card p-8 text-center">
-            <p className="font-serif text-xl text-rojas-text-muted">
-              Coming Soon
-            </p>
-            <p className="mt-2 text-sm text-rojas-text-muted">
-              Stock trades in healthcare companies sourced from Capitol Trades
-              financial disclosure data.
-            </p>
-          </div>
+          <TradeHistory trades={memberTrades} bioguideId={member.bioguideId} />
         </div>
       </div>
     </div>

@@ -59,3 +59,30 @@ export interface Donation {
   pacAmount: number;
   individualAmount: number;
 }
+
+export type TradeType = "Purchase" | "Sale" | "Sale (Partial)" | "Sale (Full)" | "Exchange";
+
+export type TradeAmountRange =
+  | "$1,001–$15,000"
+  | "$15,001–$50,000"
+  | "$50,001–$100,000"
+  | "$100,001–$250,000"
+  | "$250,001–$500,000"
+  | "$500,001–$1,000,000"
+  | "$1,000,001–$5,000,000"
+  | "$5,000,001–$25,000,000";
+
+export type TradeOwner = "Self" | "Spouse" | "Child" | "Joint";
+
+export interface Trade {
+  memberId: string;
+  transactionDate: string;
+  filingDate: string;
+  company: string;
+  ticker: string;
+  type: TradeType;
+  amount: TradeAmountRange;
+  owner: TradeOwner;
+  sector: HealthcareSector | "Biotech" | "Medical Devices" | "Healthcare IT";
+  capitolTradesUrl?: string;
+}

@@ -2,12 +2,14 @@ import membersData from "../../data/members.json";
 import billsData from "../../data/bills.json";
 import votesData from "../../data/votes.json";
 import donationsData from "../../data/donations.json";
-import type { Member, Bill, Vote, Donation, HealthcareSector } from "./types";
+import tradesData from "../../data/trades.json";
+import type { Member, Bill, Vote, Donation, Trade, HealthcareSector } from "./types";
 
 const members: Member[] = membersData as Member[];
 const bills: Bill[] = billsData as Bill[];
 const votes: Vote[] = votesData as Vote[];
 const donations: Donation[] = donationsData as Donation[];
+const trades: Trade[] = tradesData as Trade[];
 
 export function getAllMembers(): Member[] {
   return members;
@@ -87,6 +89,35 @@ export function getDonationSummaryForMember(
   }
 
   return { total, totalPac, totalIndividual, bySector, donorCount: memberDonations.length };
+}
+
+export function getTradesForMember(memberId: string): Trade[] {
+  return trades
+    .filter((t) => t.memberId === memberId)
+    .sort(
+      (a, b) =>
+        new Date(b.transactionDate).getTime() -
+        new Date(a.transactionDate).getTime()
+    );
+}
+
+export function getTradeSummaryForMember(memberId: string) {
+  const memberTrades = trades.filter((t) => t.memberId === memberId);
+  return {
+    total: memberTrades.length,
+    purchases: memberTrades.filter((t) => t.type === "Purchase").length,
+    sales: memberTrades.filter(
+      (t) => t.type === "Sale" || t.type === "Sale (Partial)" || t.type === "Sale (Full)"
+    ).length,
+  };
+}
+
+export function getAllTradeCounts() {
+  const counts: Record<string, number> = {};
+  for (const t of trades) {
+    counts[t.memberId] = (counts[t.memberId] || 0) + 1;
+  }
+  return counts;
 }
 
 export function getAllDonationTotals(cycle: "2024" | "2022" = "2024") {
