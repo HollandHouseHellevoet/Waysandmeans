@@ -1,4 +1,4 @@
-import { getAllMembers, getVoteCountsForMember } from "@/lib/data";
+import { getAllMembers, getVoteCountsForMember, getAllDonationTotals } from "@/lib/data";
 import SectionHeader from "@/components/SectionHeader";
 import StatBadge from "@/components/StatBadge";
 import MemberGrid from "@/components/MemberGrid";
@@ -15,6 +15,11 @@ export default function Home() {
   for (const member of members) {
     voteCounts[member.id] = getVoteCountsForMember(member.id);
   }
+  const donationTotals = getAllDonationTotals("2024");
+  const totalHealthcareMoney = Object.values(donationTotals).reduce(
+    (sum, v) => sum + v,
+    0
+  );
 
   return (
     <div>
@@ -62,9 +67,9 @@ export default function Home() {
               sublabel="Minority party"
             />
             <StatBadge
-              value="11"
-              label="Healthcare Bills"
-              sublabel="Key votes tracked"
+              value={`$${(totalHealthcareMoney / 1000000).toFixed(1)}M`}
+              label="Healthcare Money"
+              sublabel="2024 cycle contributions"
             />
           </div>
         </div>
@@ -77,9 +82,9 @@ export default function Home() {
             number="01"
             label="Member Profiles"
             title="The Committee"
-            description="Every member of the House Ways and Means Committee. Select a profile to see their complete healthcare voting record."
+            description="Every member of the House Ways and Means Committee. Select a profile to see their healthcare voting record and campaign donations."
           />
-          <MemberGrid members={members} voteCounts={voteCounts} />
+          <MemberGrid members={members} voteCounts={voteCounts} donationTotals={donationTotals} />
         </div>
       </section>
     </div>

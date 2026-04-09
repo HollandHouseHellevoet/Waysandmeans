@@ -6,9 +6,12 @@ import {
   getMemberBySlug,
   getVotesForMember,
   getVoteCountsForMember,
+  getDonationsForMember,
+  getDonationSummaryForMember,
 } from "@/lib/data";
 import ProfileHeader from "@/components/ProfileHeader";
 import VotingHistory from "@/components/VotingHistory";
+import DonationHistory from "@/components/DonationHistory";
 import SectionHeader from "@/components/SectionHeader";
 
 interface PageProps {
@@ -43,6 +46,10 @@ export default async function MemberPage({ params }: PageProps) {
 
   const votes = getVotesForMember(member.id);
   const voteCounts = getVoteCountsForMember(member.id);
+  const donations2024 = getDonationsForMember(member.id, "2024");
+  const donations2022 = getDonationsForMember(member.id, "2022");
+  const summary2024 = getDonationSummaryForMember(member.id, "2024");
+  const summary2022 = getDonationSummaryForMember(member.id, "2022");
 
   return (
     <div>
@@ -56,29 +63,19 @@ export default async function MemberPage({ params }: PageProps) {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
-        <ProfileHeader member={member} voteCounts={voteCounts} />
+        <ProfileHeader member={member} voteCounts={voteCounts} donationTotal={summary2024.total} />
 
         <div className="mt-12">
           <VotingHistory votes={votes} />
         </div>
 
-        {/* Coming Soon sections */}
         <div className="mt-12">
-          <SectionHeader
-            number="02"
-            label="Campaign Finance"
-            title="Healthcare Donations"
-            description="Campaign contributions from healthcare and healthcare-adjacent companies. Coming soon."
+          <DonationHistory
+            donations2024={donations2024}
+            donations2022={donations2022}
+            summary2024={summary2024}
+            summary2022={summary2022}
           />
-          <div className="border-l-3 border-rojas-border bg-rojas-card p-8 text-center">
-            <p className="font-serif text-xl text-rojas-text-muted">
-              Coming Soon
-            </p>
-            <p className="mt-2 text-sm text-rojas-text-muted">
-              Donation data from healthcare PACs, hospital systems, insurers,
-              and pharmaceutical companies.
-            </p>
-          </div>
         </div>
 
         <div className="mt-12">

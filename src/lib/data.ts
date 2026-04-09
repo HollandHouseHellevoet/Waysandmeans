@@ -1,11 +1,13 @@
 import membersData from "../../data/members.json";
 import billsData from "../../data/bills.json";
 import votesData from "../../data/votes.json";
-import type { Member, Bill, Vote } from "./types";
+import donationsData from "../../data/donations.json";
+import type { Member, Bill, Vote, Donation, HealthcareSector } from "./types";
 
 const members: Member[] = membersData as Member[];
 const bills: Bill[] = billsData as Bill[];
 const votes: Vote[] = votesData as Vote[];
+const donations: Donation[] = donationsData as Donation[];
 
 export function getAllMembers(): Member[] {
   return members;
@@ -46,4 +48,53 @@ export function getVoteCountsForMember(memberId: string) {
     nay: memberVotes.filter((v) => v.vote === "Nay").length,
     notVoting: memberVotes.filter((v) => v.vote === "Not Voting").length,
   };
+}
+
+export function getDonationsForMember(
+  memberId: string,
+  cycle?: "2024" | "2022"
+): Donation[] {
+  return donations
+    .filter(
+      (d) => d.memberId === memberId && (cycle ? d.cycle === cycle : true)
+    )
+    .sort((a, b) => b.total - a.total);
+}
+
+export function getDonationSummaryForMember(
+  memberId: string,
+  cycle: "2024" | "2022" = "2024"
+) {
+  const memberDonations = donations.filter(
+    (d) => d.memberId === memberId && d.cycle === cycle
+  );
+  const total = memberDonations.reduce((sum, d) => sum + d.total, 0);
+  const totalPac = memberDonations.reduce((sum, d) => sum + d.pacAmount, 0);
+  const totalIndividual = memberDonations.reduce(
+    (sum, d) => sum + d.individualAmount,
+    0
+  );
+
+  const bySector: Record<HealthcareSector, number> = {
+    Pharmaceuticals: 0,
+    "Hospitals & Nursing Homes": 0,
+    "Health Services/HMOs": 0,
+    "Health Professionals": 0,
+    Insurance: 0,
+  };
+  for (const d of memberDonations) {
+    bySector[d.sector] += d.total;
+  }
+
+  return { total, totalPac, totalIndividual, bySector, donorCount: memberDonations.length };
+}
+
+export function getAllDonationTotals(cycle: "2024" | "2022" = "2024") {
+  const totals: Record<string, number> = {};
+  for (const d of donations) {
+    if (d.cycle === cycle) {
+      totals[d.memberId] = (totals[d.memberId] || 0) + d.total;
+    }
+  }
+  return totals;
 }

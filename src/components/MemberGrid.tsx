@@ -8,9 +8,10 @@ import PartyFilter from "./PartyFilter";
 interface MemberGridProps {
   members: Member[];
   voteCounts: Record<string, { total: number; yea: number; nay: number; notVoting: number }>;
+  donationTotals?: Record<string, number>;
 }
 
-export default function MemberGrid({ members, voteCounts }: MemberGridProps) {
+export default function MemberGrid({ members, voteCounts, donationTotals }: MemberGridProps) {
   const [partyFilter, setPartyFilter] = useState<"all" | "R" | "D">("all");
 
   const filtered =
@@ -40,6 +41,7 @@ export default function MemberGrid({ members, voteCounts }: MemberGridProps) {
             key={member.id}
             member={member}
             voteCounts={voteCounts[member.id]}
+            donationTotal={donationTotals?.[member.id]}
           />
         ))}
       </div>

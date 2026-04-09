@@ -3,11 +3,20 @@ import type { Member } from "@/lib/types";
 interface ProfileHeaderProps {
   member: Member;
   voteCounts: { total: number; yea: number; nay: number; notVoting: number };
+  donationTotal?: number;
+}
+
+function formatCurrency(amount: number) {
+  if (amount >= 1000000) {
+    return `$${(amount / 1000000).toFixed(1)}M`;
+  }
+  return `$${amount.toLocaleString()}`;
 }
 
 export default function ProfileHeader({
   member,
   voteCounts,
+  donationTotal,
 }: ProfileHeaderProps) {
   const partyColor =
     member.party === "R" ? "bg-party-republican" : "bg-party-democrat";
@@ -85,6 +94,16 @@ export default function ProfileHeader({
                   Nay
                 </div>
               </div>
+              {donationTotal != null && donationTotal > 0 && (
+                <div className="ml-auto sm:ml-6 pl-6 border-l border-rojas-border">
+                  <div className="font-serif text-2xl text-rojas-accent font-bold">
+                    {formatCurrency(donationTotal)}
+                  </div>
+                  <div className="text-xs text-rojas-text-muted font-sans uppercase tracking-wider">
+                    Healthcare $
+                  </div>
+                </div>
+              )}
             </div>
           )}
         </div>

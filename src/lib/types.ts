@@ -42,3 +42,20 @@ export interface Vote {
   billId: string;
   vote: "Yea" | "Nay" | "Not Voting" | "Present";
 }
+
+export type HealthcareSector =
+  | "Pharmaceuticals"
+  | "Hospitals & Nursing Homes"
+  | "Health Services/HMOs"
+  | "Health Professionals"
+  | "Insurance";
+
+export interface Donation {
+  memberId: string;
+  cycle: "2024" | "2022";
+  organization: string;
+  sector: HealthcareSector;
+  total: number;
+  pacAmount: number;
+  individualAmount: number;
+}

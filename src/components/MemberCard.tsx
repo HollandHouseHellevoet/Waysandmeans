@@ -4,9 +4,17 @@ import type { Member } from "@/lib/types";
 interface MemberCardProps {
   member: Member;
   voteCounts?: { total: number; yea: number; nay: number; notVoting: number };
+  donationTotal?: number;
 }
 
-export default function MemberCard({ member, voteCounts }: MemberCardProps) {
+function formatCurrency(amount: number) {
+  if (amount >= 1000000) {
+    return `$${(amount / 1000000).toFixed(1)}M`;
+  }
+  return `$${Math.round(amount / 1000)}K`;
+}
+
+export default function MemberCard({ member, voteCounts, donationTotal }: MemberCardProps) {
   const partyColor =
     member.party === "R" ? "border-party-republican" : "border-party-democrat";
   const partyBg =
@@ -47,17 +55,22 @@ export default function MemberCard({ member, voteCounts }: MemberCardProps) {
           {member.bio}
         </p>
 
-        {voteCounts && voteCounts.total > 0 && (
+        {(voteCounts?.total ?? 0) > 0 && (
           <div className="mt-3 pt-3 border-t border-rojas-border flex items-center gap-4 text-xs font-sans">
             <span className="text-vote-yea">
-              {voteCounts.yea} Yea
+              {voteCounts!.yea} Yea
             </span>
             <span className="text-vote-nay">
-              {voteCounts.nay} Nay
+              {voteCounts!.nay} Nay
             </span>
-            {voteCounts.notVoting > 0 && (
+            {voteCounts!.notVoting > 0 && (
               <span className="text-rojas-text-muted">
-                {voteCounts.notVoting} Absent
+                {voteCounts!.notVoting} Absent
+              </span>
+            )}
+            {donationTotal != null && donationTotal > 0 && (
+              <span className="ml-auto text-rojas-accent font-semibold">
+                {formatCurrency(donationTotal)}
               </span>
             )}
           </div>
