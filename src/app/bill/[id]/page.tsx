@@ -24,6 +24,11 @@ export async function generateMetadata({
   return {
     title: `${bill.shortTitle} — Vote Breakdown`,
     description: `How all 45 Ways and Means Committee members voted on ${bill.shortTitle} (${bill.number}).`,
+    twitter: {
+      card: "summary_large_image",
+      title: `${bill.shortTitle} — Vote Breakdown`,
+      description: `How Ways & Means voted on ${bill.number}: ${bill.title}`,
+    },
     alternates: {
       canonical: `https://waysandmeans.rojasreport.com/bill/${id}`,
     },
