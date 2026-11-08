@@ -1,0 +1,5 @@
+# waysandmeans.rojasreport.com folded into rojasreport.com (November 2026).
+# Member and bill pages have no one-to-one successor yet; they land on the committee dossier.
+/member/*  https://rojasreport.com/committees/ways-and-means/  301
+/bill/*    https://rojasreport.com/committees/ways-and-means/  301
+/*         https://rojasreport.com/committees/ways-and-means/  301
