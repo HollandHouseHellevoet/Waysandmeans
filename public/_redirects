@@ -1,0 +1,5 @@
+# waysandmeans.rojasreport.com folded into rojasreport.com (November 2026).
+# Each member page goes to its dossier; the old bill pages (116th to 118th Congress votes) go to the key-votes list.
+/member/:slug  https://rojasreport.com/committees/ways-and-means/members/:slug/  301
+/bill/*        https://rojasreport.com/committees/ways-and-means/votes/  301
+/*             https://rojasreport.com/committees/ways-and-means/  301
